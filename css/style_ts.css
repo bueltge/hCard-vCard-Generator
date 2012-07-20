@@ -1,0 +1,152 @@
+body {
+	background-color: #FFC;
+	margin: 0px;
+	padding: 0px;
+	
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+}
+a {
+	color: #900;
+	text-decoration: none;
+	font-weight: bold;
+}
+p {
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 16px;
+	padding-left: 10px;
+	margin: 0px;
+}
+h1 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background-color: #ACB234;
+	text-align: left;
+	padding: 5px;
+	margin: 0px;
+	font-size: 300%;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+	color: #900;
+	border-bottom-width: 8px;
+	border-bottom-style: solid;
+	border-bottom-color: #900;
+	padding-bottom:15px;
+}
+#noscript h1 {
+	color: #FFC;
+	background-color: #900;
+	font-size: 100%;
+	font-family: Verdana, Geneva, sans-serif;
+	text-transform: uppercase;
+	border-top-width: 5px;
+	border-top-style: solid;
+	border-top-color: #C60;
+	border-bottom-width: 0px;
+	padding: 5px;
+}
+#input {
+	background-color: #DDE0AE;
+	width: 50%;
+	padding: 10px;
+	clear: none;
+	float: none;
+	overflow: visible;
+	position: relative;
+	margin: 10px;
+}
+#input form fieldset dl dt {
+	width: 160px;
+	clear: both;
+	float: left;
+	text-align: right;
+}
+#input form fieldset dl dd {
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 170px;	
+}
+
+
+#input form fieldset dl label {
+	text-transform: capitalize;
+}
+#input form fieldset dl .input {
+	width: 80%;
+}
+#input form fieldset {
+	border: 1px solid #555;
+	margin: 10px;
+}
+#input form fieldset legend {
+	padding: 5px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 120%;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+#preview {
+	background-color: #FAFAF3;
+	margin: 20px;
+	padding: 20px;
+	position: fixed;
+	top: 115px;
+	right: 15px;
+	border: 1px solid #CCC;
+}
+
+#preview .org{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 120%;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #900;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #900;
+}
+
+#preview .role{
+	font-size: 90%;
+	font-style: italic;
+	color: #666;
+	text-align: right;
+}
+#preview .titel{
+	font-size: 70%;
+	display: block;
+}
+#preview .sort-string{
+	font-size: 70%;
+	color: #CCC;
+	text-align: right;
+	display: block;
+}
+#preview .region{
+	display: block;
+}
+#preview a{
+	display: block;
+}
+#preview .postal-code, #preview .locality{
+	
+	font-weight: bold;
+}
+#code{
+	width: 50%;
+	margin: 10px;
+	padding:10px;
+}
+#code textarea{
+	width: 100%;	
+}
+#footer {
+	background-color: #BABD4B;
+	border-top-width: 8px;
+	border-top-style: solid;
+	border-top-color: #900;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}

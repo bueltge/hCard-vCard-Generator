@@ -1,0 +1,235 @@
+/*
+
+Stylesheet für den hcard Generator auf http://bueltge.de/hcard/
+Datei: style_ai.css
+Media: screen
+Datum: 09. Oktober 2008
+Autor: Andreas Isaak
+E-Mail: info@andreas-isaak.de
+Web: http://andreas-isaak.de
+Letzte Änderung: 11.10.08 11:34
+
+*/
+
+body {
+font: normal 87% "Trebuchet MS", "Myriad Web", Arial, Helvetica, sans-serif;
+background-color:#575858;
+padding:0;
+margin:0;
+}
+
+/* Header */
+h1 {
+display:block;
+background-color:#076F92;
+font-size:200%;
+padding:20px 20px 40px 20px;
+margin:0;
+color:white;
+border-bottom:1px solid #c0c0c0;
+}
+
+h1 a {
+color:white;
+}
+
+p small {
+background-color:#076F92;
+display:block;
+font-size:100%;
+margin:0 0 30px;
+padding:5px 20px 5px 0;
+position:absolute;
+top:65px;
+}
+
+p small a {
+color:white;
+}
+
+/* Formular */
+dl {
+width: 90%;
+}
+
+dt {
+width: 150px;
+text-align: right;
+float: left;
+clear: both;
+font-size:110%;
+font-weight:800;
+margin:0;
+padding:1px 5px 0 0;
+color:white;
+text-transform: capitalize;
+}
+
+dd {
+margin:10px;
+color:white;
+margin-left:160px;
+font-size:90%;
+}
+
+dd a {
+color:white;
+}
+
+dd input, button {
+border:1px solid #c0c0c0;
+padding:5px;
+}
+
+button {
+margin-left:10px;
+}
+
+.input {
+width: 80%;
+color:#666;
+}
+
+.input:active, .input:focus {
+color:black;
+border:1px solid #666;
+}
+
+label {
+text-align:right;
+line-height: 1.8em;
+width:5em;
+padding-right:.2em;
+}
+
+
+fieldset {
+border:1px solid #c0c0c0;
+border-radius : 5px;
+-moz-border-radius : 5px;
+-webkit-border-radius : 5px;
+}
+
+legend {
+margin-left:30px;
+text-transform:uppercase;
+color:white;
+font-size:180%;
+padding:0 5px;
+}
+
+
+fieldset, textarea {
+width:75%;
+padding:0;
+margin-bottom:40px;
+color:white;
+}
+
+#input {
+width:85%;
+margin:40px 0 0 20px;
+}
+
+p {
+margin-left:20px;
+color:white;
+}
+
+p a {
+color:white;
+}
+
+#code {
+margin:40px 0 0 20px;
+width:84%;
+}
+
+#code textarea {
+border:1px solid #c0c0c0;
+border-radius : 5px;
+-moz-border-radius : 5px;
+-webkit-border-radius : 5px;
+background-color:#575858;
+padding:5px;
+}
+
+/* Preview the Code */
+#preview {
+position: fixed;
+width:350px;
+top:10px;
+right:10px;
+color:white;
+margin-left: 160px;
+padding:5px;
+background:#575858;
+border:1px solid #c0c0c0;
+border-radius: 3px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+z-index:100;
+font-size:110%
+}
+
+#preview a { 
+text-decoration: none; 
+color:white; 
+padding: 0.2em;
+}
+
+#preview .fn { 
+font-weight:bold;
+font-size:115%;
+}
+
+#preview .org { 
+font-weight: 900; 
+}
+
+#preview .adr { 
+font-size: 90%; margin: 0.3em 0; 
+}
+
+#preview .tel, #preview .note, #preview .bday { 
+font-size: 90%; 
+margin: 5px 0;
+}
+
+/* Footer */
+#footer {
+background-color:#076F92;
+margin:30px 0 0 0;
+padding:10px 20px 20px 20px;
+border-top:1px solid #c0c0c0;
+}
+
+#footer p {
+color:white;
+margin-left:0;
+}
+
+#footer p a {
+color:white;
+}
+
+#footer p a[rel="license"] { 
+padding-left: 20px; 
+background: url('../img/cc.png') no-repeat 0 50%; 
+}
+
+/* Preview-Example */
+.type {
+display: none;
+}
+
+.photo {
+float: right;
+clear:left;
+z-index:999;
+}
+
+/* Global Style for Links */
+a:hover {
+text-decoration:none;
+}

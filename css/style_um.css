@@ -1,0 +1,359 @@
+/* =========================================================
+style_um.de - Stylesheet für den hCard Creator von Frank Bueltge
+Datei: style_um.css
+Media: screen
+Datum: 23. Januar 2007
+Autor: Ulf Mayer
+Mail: ulfmayer@gmail.com
+Web: http://bueltge.de/hcard/
+
+========================================================== */
+
+/* ===============================
+   = Allgemeine Styles
+=============================== */
+body {
+	background: #313131;
+   font: normal 82% "Trebuchet MS", "Myriad Web", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+   margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6,pre,code { 
+	font-size:1em; 
+}
+
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input, dl, dt, dd { 
+	margin:0; 
+	padding:0 
+}
+
+fieldset {
+   border: none 0;
+}
+
+address { 
+	font-style:normal; 
+}
+
+/* ===============================
+   = Styles für den Creator
+=============================== */
+
+h1 {
+	display: block;
+	background: #252424;
+	text-align: center;
+	font-family: "Lucida Sans Unicode", Lucida, sans-serif;
+	color: #c5e4f4;
+	font-weight: normal;
+	font-size: 1.7em;
+	border: 0;
+	border-bottom: 1px solid #494848;
+	padding: 1em 0 .5em 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+h1 a {
+	color: #c5e4f4;
+	text-decoration: none;		
+}
+
+h1 a:hover {
+	text-decoration: underline;		
+}
+
+p a,
+small a,
+div#footer a {
+	text-decoration: none;
+	color: #cccac6;
+}
+
+p a:hover,
+small a:hover,
+div#footer a:hover {
+	text-decoration: underline;	
+}
+
+small {
+	position: absolute;
+	top: 35px;
+	left: 25px;
+	display: block;
+	color: #494848;
+	font-size: .8em;
+}
+
+textarea#samplecode {
+	margin: 20px auto;
+	width: 80%;
+	font-family: "Arial", "Verdana", "Tahoma", "Times New Roman", Courier, serif;
+	font-size: .9em;
+	color: #313131;
+	padding: .2em;
+	background: #f5f5f5;
+	line-height: 1.4em;
+	border-width: 2px;
+	border-style: solid;
+	border-top-color: #848383;
+	border-left-color: #848383;
+	border-bottom-color: ##D4D0C8;
+	border-right-color: ##D4D0C8;
+}
+
+fieldset {
+	background: #494848;
+	border-right: 0px solid #e9e7e2;
+	position: relative;
+	padding: 20px 0 20px 0;
+	display: block;
+	margin: 0 0 1em 0;
+	color: #b7b7b7;
+	font-size: .8em;
+}
+
+legend {
+	color: #c5e4f4;
+	font-weight: normal;
+	display: block;
+	margin: 0 0 .8em 0;
+	padding: .1em .7em .5em .7em;
+	font-family: "Lucida Sans Unicode", Lucida, sans-serif;
+	font-size: 1.5em;
+	background: #494848;
+}
+
+fieldset input.input {
+	width: 65%;
+	background: #fff;
+	border-width: 1px;
+	border-style: solid;
+	border-top-color: #848383;
+	border-left-color: #848383;
+	border-bottom-color: ##D4D0C8;
+	border-right-color: ##D4D0C8;
+	padding: 3px;
+	color: #888;
+	_color: #000; /* Ugly IE Hack, because there is no :focus in IE6 and lower */
+	font-family: "Trebuchet MS", "Myriad Web", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 1.05em;
+	_height: auto; /* Back to normal, because Input-Button later needs height */
+}
+
+input.input:focus {
+	color: #000;
+}
+
+div#preview span {
+	display: block;
+}
+
+dl {
+	width: 90%;
+}
+
+dt {
+	width: 150px;
+	text-align: right;
+	float: left;
+	clear: both;
+	margin: 0;
+	padding: 0 0;
+}
+
+dd {
+	margin: 0 0 5px 0;
+}
+
+label {
+	display: block;
+	text-align:right;
+	line-height: 1.8em;
+	width:13em;
+	padding: .2em .5em .2em 0;
+	cursor: pointer;
+	color: #c5e4f4;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 1.05em;
+	height: 23px;
+}
+
+fieldset, textarea {
+	width:70%;
+	padding:0;
+}
+
+   div#input a {
+	color: #b7b7b7;
+}
+
+fieldset dl {
+	padding-bottom: 20px;
+}
+
+input,
+button {
+	border-width: 1px;
+	border-style: solid;
+	border-bottom-color: #848383;
+	border-right-color: #848383;
+	border-top-color: ##D4D0C8;
+	border-left-color: ##D4D0C8;
+	font-family: "Trebuchet MS", "Myriad Web", Tahoma, Geneva, Arial, Helvetica, sans-serif;
+	line-height: normal;
+	font-size: .85em;
+	padding: .2em 1em .3em 1em;
+	background: #e8e5df;
+	color: #252424;
+	_line-height: 1.5em; /* IE renders Buttons different */
+	_height: 28px; /* IE renders Buttons different */
+	_padding: 0 .2em; /* IE renders Buttons different */	
+}
+
+/* ===============================
+   = Preview
+=============================== */
+#preview a {
+	color: #382704;
+}
+
+#preview span {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+#preview .org {
+	font-weight: bold;
+	color: #382704;
+}
+
+#preview .latitude {
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 0;
+	margin-top: 10px;
+}
+
+#preview div.extendedaddress {
+	font-size: .85em;
+	padding-left: .5em;
+	color: #454545;
+}
+
+#preview .locality,
+#preview .postal-code {
+	display: inline;
+	margin: 0;
+	border: 0;
+}
+
+#preview .tel,
+#preview .note {
+	font-style: italic;
+}
+
+#preview .agent {
+	border: 0;
+}
+
+#preview span.region {
+	border: 0;
+	margin: 0;
+}
+
+#preview div.adr {
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+#preview span.sort-string {
+	padding-bottom: 10px;
+}
+
+#preview .bday {
+	text-align: center;
+	padding-top: 5px;
+}
+
+#preview img.photo {
+	float: right;
+	clear:left;
+	z-index:999;
+	border: 1px solid #382704;
+	padding: 2px;
+	background: #e8e5df;
+	margin: 0 0 5px 5px;
+}
+
+.type {
+	display: none;
+}
+
+/* ===============================
+   = Container
+=============================== */
+
+div#input {
+	width: 80%;
+	margin: 20px auto;
+}
+
+div#code {
+	text-align: center;
+}
+
+div#preview {
+	/* position: fixed; IE6 and lower won't do this, plus it's over the textarea when scrolling with much content */
+	position: absolute;
+	width:19.85%;
+	top:102px;
+	left:68.4%;
+	padding:.5em;
+	background:#e8e5df;
+	border:4px double #494848;
+	z-index:100;
+	overflow: hidden;
+}
+
+div#footer {
+	background: #252424;
+	border: 0;
+	border-top: 1px solid #494848;	
+	text-align: center;
+	color: #494848;
+	font-size: .8em;
+	padding: 1em 0 2em 0;
+	margin-top: 1em;
+}
+
+/* ===============================
+   = Evtl. NoScript
+=============================== */
+
+div#noscript {
+	border: 3px solid #7a1313;
+	background: #ffdede;
+	position: absolute;
+	top: 10%;
+	left: 20%;
+	width: 60%;
+	text-align: center;
+	margin: 20px auto;
+	z-index: 1001;
+}
+
+div#noscript h1 {
+	background: none;
+	border: 0;
+	color: #7a1313;
+	font-size: 1.4em;
+	letter-spacing: normal;
+	font-weight: bold;
+}
+
+div#noscript p {
+	margin: 0 1em 2em 1em;
+}

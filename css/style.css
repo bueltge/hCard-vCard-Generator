@@ -1,0 +1,65 @@
+dl {
+width: 90%;
+}
+
+dt {
+width: 150px;
+text-align: right;
+float: left;
+clear: both;
+margin: 0;
+padding: 0 5px;
+}
+
+dd {
+margin: 10px;
+}
+
+.input {
+width: 60%;
+}
+
+label {
+text-align:right;
+line-height: 1.8em;
+width:5em;
+padding-right:.2em;
+}
+
+fieldset, textarea {
+width:75%;
+padding:0;
+}
+
+/* divs */
+#input {
+}
+
+#code {
+}
+
+#preview {
+position: fixed;
+width:350px;
+top:10px;
+right:10px;
+margin-left: 160px;
+padding:5px;
+background:#ddd;
+border:1px solid black;
+z-index:100;
+}
+
+#footer {
+}
+
+/* Preview-Example */
+.type {
+display: none;
+}
+
+.photo {
+float: right;
+clear:left;
+z-index:999;
+}

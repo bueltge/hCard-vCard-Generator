@@ -1,0 +1,105 @@
+body {
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, Helvetica, sans-serfi;
+	font-size: 100%;
+	color: #202050;
+}
+
+a { color: #c30; text-decoration: none; }
+a:hover { color: #fff; background: #c30; }
+
+dl {
+width: 90%;
+}
+
+dt {
+width: 150px;
+text-align: right;
+float: left;
+clear: both;
+margin: 0;
+padding: 0 5px;
+}
+
+dd {
+margin: 10px;
+}
+
+dt label, dd {
+	font-size: 90%;
+}
+
+.input {
+width: 60%;
+}
+
+label {
+text-align:right;
+line-height: 1.8em;
+width:5em;
+padding-right:.2em;
+}
+
+fieldset, textarea {
+width:75%;
+padding:0;
+}
+
+/* divs */
+#input {
+}
+
+#code {
+}
+
+#preview {
+	font-size: 85%;
+	position: fixed;
+	width:350px;
+	top:10px;
+	right:10px;
+	margin-left: 160px;
+	padding:0.5em;
+	background:#fff;
+	color: #000; 
+	border:1px solid black;
+	z-index:100;
+}
+
+#preview a { text-decoration: none; color: #cc3300; padding: 0.2em;}
+#preview a:hover { text-decoration: none; color: #fff; background: #cc3300; }
+
+#preview .org { font-weight: bolder; }
+#preview .adr { font-size: 90%; font-style: italic; margin: 0.3em 0; }
+#preview .tel,
+#preview .note,
+#preview .bday { font-family: "Courier New", courier, monospace; font-size: 90%; margin: 0.3em 0;}
+
+
+
+#footer {
+	font-size: 80%;
+	padding: 1em 2em;
+	margin: 1em 0;
+	background: #202050;
+	color: #fff;
+}
+
+#footer a {
+	color: yellow;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	text-decoration: underline;
+}
+
+/* Preview-Example */
+.type {
+	display: none;
+}
+
+.photo {
+	float: right;
+	clear:left;
+	z-index:999;
+}
